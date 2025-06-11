@@ -87,6 +87,7 @@ dev = [
 
 [project.scripts]
 gemini-mcp-server = "gemini_server:main"
+server = "server:main"
 
 [project.urls]
 Homepage = "https://github.com/anthropics/gemini-mcp-server"
