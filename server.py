@@ -653,5 +653,10 @@ async def main():
         )
 
 
-if __name__ == "__main__":
+def run():
+    """Synchronous entry point for script execution."""
     asyncio.run(main())
+
+
+if __name__ == "__main__":
+    run()
