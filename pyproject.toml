@@ -96,7 +96,7 @@ Issues = "https://github.com/anthropics/gemini-mcp-server/issues"
 
 [tool.setuptools]
 py-modules = ["gemini_server", "server", "config", "log_monitor", "communication_simulator_test"]
-packages = ["tools", "utils", "prompts"]
+packages = ["tools", "utils", "prompts", "providers"]
 
 [build-system]
 requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
